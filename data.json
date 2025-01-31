@@ -1,66 +1,92 @@
 {
+  "salonName": "Natural Beauty Salon, Spa and Wellness Center",
+  "menu": ["Services", "Gift Vouchers", "Cart"],
   "services": {
-    "Hair Care": [
-      {
-        "id": "h1",
-        "name": "Haircut & Style",
-        "price": 45.00,
-        "duration": "45 mins"
-      },
-      {
-        "id": "h2",
-        "name": "Hair Coloring",
-        "price": 85.00,
-        "duration": "2 hrs"
-      },
-      {
-        "id": "h3",
-        "name": "Deep Conditioning",
-        "price": 35.00,
-        "duration": "30 mins"
-      }
+    "Hair Services": [
+      {"id": 1, "name": "Haircut", "price": 30, "duration": "30 mins"},
+      {"id": 2, "name": "Haircolor", "price": 300, "duration": "2hrs 20 mins"},
+      {"id": 3, "name": "Hair Extensions", "price": 100, "duration": "20 mins"},
+      {"id": 4, "name": "Hair Spa", "price": 100, "duration": "50 mins"},
+      {"id": 5, "name": "Blow Dry", "price": 50, "duration": "20 mins"},
+      {"id": 6, "name": "Hair Rebonding", "price": 400, "duration": "3 hrs"},
+      {"id": 7, "name": "Keratin Treatment", "price": 500, "duration": "2 hrs 30 mins"}
     ],
-    "Facial Treatments": [
-      {
-        "id": "f1",
-        "name": "Classic Facial",
-        "price": 65.00,
-        "duration": "1 hr"
-      },
-      {
-        "id": "f2",
-        "name": "Anti-Aging Treatment",
-        "price": 95.00,
-        "duration": "1.5 hrs"
-      }
+    "Beauty Services": [
+      {"id": 5, "name": "Manicure", "price": 30, "duration": "30 mins"},
+      {"id": 6, "name": "Pedicure", "price": 30, "duration": "30 mins"},
+      {"id": 7, "name": "Facial", "price": 100, "duration": "50 mins"},
+      {"id": 8, "name": "Threading", "price": 15, "duration": "10 mins"},
+      {"id": 9, "name": "Waxing (Half Body)", "price": 70, "duration": "1 hr"},
+      {"id": 10, "name": "Bridal Makeup", "price": 200, "duration": "2 hrs"}
     ],
-    "Massage": [
-      {
-        "id": "m1",
-        "name": "Swedish Massage",
-        "price": 75.00,
-        "duration": "1 hr"
-      },
-      {
-        "id": "m2",
-        "name": "Deep Tissue Massage",
-        "price": 85.00,
-        "duration": "1 hr"
-      }
+    "Spa Services": [
+      {"id": 11, "name": "Swedish Massage", "price": 200, "duration": "1 hr"},
+      {"id": 12, "name": "Deep Tissue Massage", "price": 250, "duration": "1 hr 15 mins"},
+      {"id": 13, "name": "Hot Stone Massage", "price": 300, "duration": "1 hr 20 mins"},
+      {"id": 14, "name": "Aromatherapy", "price": 220, "duration": "1 hr"},
+      {"id": 15, "name": "Foot Reflexology", "price": 180, "duration": "45 mins"}
     ],
-    "Nail Care": [
-      {
-        "id": "n1",
-        "name": "Manicure",
-        "price": 30.00,
-        "duration": "45 mins"
-      },
-      {
-        "id": "n2",
-        "name": "Pedicure",
-        "price": 40.00,
-        "duration": "1 hr"
-      }
+    "Nail Services": [
+      {"id": 16, "name": "Classic Manicure", "price": 30, "duration": "30 mins"},
+      {"id": 17, "name": "French Manicure", "price": 50, "duration": "40 mins"},
+      {"id": 18, "name": "Gel Manicure", "price": 80, "duration": "50 mins"},
+      {"id": 19, "name": "Classic Pedicure", "price": 40, "duration": "40 mins"},
+      {"id": 20, "name": "French Pedicure", "price": 60, "duration": "50 mins"}
+    ],
+    "Bridal Services": [
+      {"id": 21, "name": "Bridal Makeup", "price": 200, "duration": "2 hrs"},
+      {"id": 22, "name": "Mehndi (Henna) Design", "price": 150, "duration": "3 hrs"},
+      {"id": 23, "name": "Pre-Bridal Package", "price": 500, "duration": "4 hrs"},
+      {"id": 24, "name": "Bridal Spa Treatment", "price": 300, "duration": "2 hrs"}
+    ],
+    "Haircare Services": [
+      {"id": 25, "name": "Hair Fall Treatment", "price": 120, "duration": "45 mins"},
+      {"id": 26, "name": "Hair Thinning Treatment", "price": 150, "duration": "50 mins"},
+      {"id": 27, "name": "Dandruff Treatment", "price": 90, "duration": "40 mins"},
+      {"id": 28, "name": "Scalp Treatment", "price": 110, "duration": "1 hr"}
+    ],
+    "Skincare Services": [
+      {"id": 29, "name": "Anti-Aging Facial", "price": 200, "duration": "1 hr"},
+      {"id": 30, "name": "Brightening Facial", "price": 180, "duration": "1 hr"},
+      {"id": 31, "name": "Acne Treatment", "price": 150, "duration": "1 hr"},
+      {"id": 32, "name": "Pigmentation Treatment", "price": 170, "duration": "1 hr"}
+    ],
+    "Groom Services": [
+      {"id": 33, "name": "Groom Makeup", "price": 200, "duration": "2 hrs"},
+      {"id": 34, "name": "Groom Haircut", "price": 50, "duration": "30 mins"},
+      {"id": 35, "name": "Groom Shaving", "price": 20, "duration": "20 mins"},
+      {"id": 36, "name": "Groom Facial", "price": 100, "duration": "50 mins"}
+    ],
+    "Manicure Services": [
+      {"id": 37, "name": "Classic Manicure", "price": 30, "duration": "30 mins"},
+      {"id": 38, "name": "French Manicure", "price": 50, "duration": "40 mins"},
+      {"id": 39, "name": "Gel Manicure", "price": 80, "duration": "50 mins"},
+      {"id": 40, "name": "Paraffin Manicure", "price": 70, "duration": "45 mins"}
+    ],
+    "Pedicure Services": [
+      {"id": 41, "name": "Classic Pedicure", "price": 40, "duration": "40 mins"},
+      {"id": 42, "name": "French Pedicure", "price": 60, "duration": "50 mins"},
+      {"id": 43, "name": "Gel Pedicure", "price": 90, "duration": "60 mins"},
+      {"id": 44, "name": "Paraffin Pedicure", "price": 80, "duration": "50 mins"}
+    ],
+    "Facial Services": [
+      {"id": 45, "name": "Classic Facial", "price": 100, "duration": "50 mins"},
+      {"id": 29, "name": "Anti-Aging Facial", "price": 200, "duration": "1 hr"},
+      {"id": 30, "name": "Brightening Facial", "price": 180, "duration": "1 hr"},
+      {"id": 34, "name": "Acne Facial", "price": 150, "duration": "50 mins"}
+    ],
+    "Massage Services": [
+      {"id": 11, "name": "Swedish Massage", "price": 200, "duration": "1 hr"},
+      {"id": 12, "name": "Deep Tissue Massage", "price": 250, "duration": "1 hr 15 mins"},
+      {"id": 13, "name": "Hot Stone Massage", "price": 300, "duration": "1 hr 20 mins"},
+      {"id": 14, "name": "Aromatherapy", "price": 220, "duration": "1 hr"},
+      {"id": 46, "name": "Thai Massage", "price": 280, "duration": "1 hr 30 mins"}
+    ],
+    "Detox Services": [
+      {"id": 47, "name": "Detox Body Wrap", "price": 200, "duration": "1 hr"},
+      {"id": 48, "name": "Detox Facial", "price": 200, "duration": "1 hr"},
+      {"id": 49, "name": "Detox Foot Bath", "price": 150, "duration": "45 mins"},
+      {"id": 50, "name": "Detox Juice Cleanse", "price": 100, "duration": "30 mins"}
     ]
   }
 }
