@@ -1,0 +1,66 @@
+{
+  "services": {
+    "Hair Care": [
+      {
+        "id": "h1",
+        "name": "Haircut & Style",
+        "price": 45.00,
+        "duration": "45 mins"
+      },
+      {
+        "id": "h2",
+        "name": "Hair Coloring",
+        "price": 85.00,
+        "duration": "2 hrs"
+      },
+      {
+        "id": "h3",
+        "name": "Deep Conditioning",
+        "price": 35.00,
+        "duration": "30 mins"
+      }
+    ],
+    "Facial Treatments": [
+      {
+        "id": "f1",
+        "name": "Classic Facial",
+        "price": 65.00,
+        "duration": "1 hr"
+      },
+      {
+        "id": "f2",
+        "name": "Anti-Aging Treatment",
+        "price": 95.00,
+        "duration": "1.5 hrs"
+      }
+    ],
+    "Massage": [
+      {
+        "id": "m1",
+        "name": "Swedish Massage",
+        "price": 75.00,
+        "duration": "1 hr"
+      },
+      {
+        "id": "m2",
+        "name": "Deep Tissue Massage",
+        "price": 85.00,
+        "duration": "1 hr"
+      }
+    ],
+    "Nail Care": [
+      {
+        "id": "n1",
+        "name": "Manicure",
+        "price": 30.00,
+        "duration": "45 mins"
+      },
+      {
+        "id": "n2",
+        "name": "Pedicure",
+        "price": 40.00,
+        "duration": "1 hr"
+      }
+    ]
+  }
+}

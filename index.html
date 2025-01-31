@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Beauty Salon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="home">
+        <div id="infobox">
+            <div id="infocontainer">
+                <div id="info">
+                    <p class="titlecontainer">
+                        <span class="n">N</span>
+                        <span class="title">Natural Beauty Salon, Spa and Wellness Center</span>
+                        <span class="rating">★<span class="ratingno">4.8</span></span>
+                    </p>
+                    <ul class="infolist">
+                        <li><i class="bi bi-geo-alt"></i><span class="ilist">319, Bin Sougat centre, Rashidiya branch, UAE.</span></li>
+                        <li><i class="bi bi-clock"></i><span class="ilist">9:00 AM to 9:00 PM</span></li>
+                        <li><i class="bi bi-lightning-charge"></i><span class="ilist">Instant booking</span></li>
+                    </ul>
+                    <a class="map" href="" target="_blank"><i class="bi bi-map"></i>View Map</a>
+                </div>
+                
+                <div id="pic">
+                    <i class="bi bi-chevron-left" id="prev-btn"></i>
+                    <img class="image" id="slider-image" src="https://placehold.co/600x400/pink/white?text=Beauty+Salon" alt="Salon">
+                    <i class="bi bi-chevron-right" id="next-btn"></i>
+                    <p class="colorIndicator">
+                        <span class="dot active">.</span>
+                        <span class="dot">.</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="menucontainer">
+                <div class="menu">
+                    <span class="activemenu" data-section="services">Services</span>
+                    <span data-section="gift">Gift</span>
+                </div>
+                
+                <div id="services" style="display: block;">
+                    <div id="services-container">
+                        <div id="column1" class="service-column">
+                            <!-- Categories will be populated by JavaScript -->
+                        </div>
+
+                        <div id="column2" class="service-column">
+                            <!-- Services will be populated by JavaScript -->
+                        </div>
+
+                        <div id="cart" class="service-column">
+                            <h3>Cart</h3>
+                            <p id="cart-count">0 items</p>
+                            <div id="cart-items">
+                                <!-- Cart items will be populated by JavaScript -->
+                            </div>
+                            <div id="cart-total">Total: <span class="total">$0.00</span></div>
+                            <button id="book-now-button">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="gift" style="display: none;">Coming Soon</div>
+            </div>
+        </div>
+        <div>
+            <p class="credits">Beauty Services in Beta 1 Plaza / Hair Services in Beta 1 Plaza / Beauty Services in Madhead Studios / Beauty Services in Beta 1 Plaza / Hair Services in Beta 1 Plaza / Beauty Services in Madhead Studios / Beauty Services in Beta 1 Plaza / Hair Services in Beta 1 Plaza / Beauty Services in Madhead Studios /</p>
+            <p class="copyright">Online bookings powered by Miosalon | copyrights 2019. All rights reserved | Terms & Conditions | Privacy Policy</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
